@@ -29,3 +29,37 @@ Not sure where to start? Here are some conversation seeds to plant:
 - Will we have required elements of Issues or Pull Requests (e.g. shipping checklists)?
 - How will we indicate sign-off on Pull Requests?
 - Who will merge pull requests?
+
+----
+
+# [ja] Day 3: `github-games`
+
+### クラスでの演習:
+
+- 3 つめのリポジトリで作業する
+  - マージコンフリクトのリポジトリと同様に、それぞれにリポジトリがあり、講師はスクリプトを実行してそれぞれの進捗を確認する（自動化は好き？ :robot: ）
+  - 追加の Git の課題が含まれている（ 制限ではない :wink: ）:
+    - GitHub Flow
+    - `git add -p` を用いた必要最小限の commits
+    - `git bisect` や `git revert` を利用してヒストリを変更する
+    - `git log` やそのエイリアス
+
+### クラスでの演習ののち:
+
+もし可能なら、一人または複数のメンバーと組んで（講師も手助けします）、このワークフローで学ぶだろうことについて話し合いましょう。もし、パートナーを同期的に組めない場合は、非同期で会話してください。 Spend some time writing reflections on the same points, and post them in an issue in the class repository. 
+
+何から話せばよいかわからない場合に備え、いくつか例を挙げる:
+- ブランチとは？
+- How is branching cheap?
+- master とは？
+- いつ、なぜ、新しいブランチを作成するのか？一人で作業している場合も？
+- ブランチを作るとどうなるか？
+- どのようなプルリクエストがパーフェクトか？
+- 自分たちの開発で、どのブランチ戦略を採用すべきか？
+- どのブランチを "master" としてサーブすべきか？ Which branch will serve as our "master" or deployed code?
+- ブランチの命名規則をどうするか？
+- どうやってラベルや担当を利用するか？
+- マイルストーンや Projects を利用するか？
+- Issue やプルリクエストに求める要素は何か？ Will we have required elements of Issues or Pull Requests (e.g. shipping checklists)?
+- How will we indicate sign-off on Pull Requests?
+- だれがプルリクエストをマージするか？
